@@ -1,0 +1,9 @@
+{
+  "name": "arc-khoros",
+  "version": "1.0.0",
+  "dependencies": {
+    "@arc-ui/bundle": "^2.0.0",
+    "@arc-ui/fonts": "^2.0.0",
+    "@arc-ui/tokens": "^2.0.0"
+  }
+}
