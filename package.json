@@ -1,9 +1,29 @@
 {
-  "name": "arc-khoros",
+  "name": "arc-community-forum",
+  "description": "Assets from Arc UI System, packaged for BT Business Community Forum",
   "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean": "rimraf _site",
+    "start": "NODE_ENV=development npm-run-all clean --parallel dev:*",
+    "dev:postcss": "postcss src/assets/css/index.css -o _site/assets/css/index.css --config ./postcss.config.js --watch",
+    "dev:eleventy": "ELEVENTY_ENV=development npx @11ty/eleventy --incremental --quiet --serve",
+    "build": "NODE_ENV=production npm-run-all clean --parallel prod:*",
+    "prod:postcss": "postcss src/assets/css/index.css -o _site/assets/css/index.css --config ./postcss.config.js",
+    "prod:eleventy": "ELEVENTY_ENV=production npx @11ty/eleventy --output=./_site"
+  },
   "dependencies": {
     "@arc-ui/bundle": "^2.0.0",
     "@arc-ui/fonts": "^2.0.0",
-    "@arc-ui/tokens": "^2.0.0"
+    "@arc-ui/tokens": "^2.0.0",
+    "postcss-cli": "^9.0.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.4.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
+    "rimraf": "^3.0.2"
   }
 }
