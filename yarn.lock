@@ -46,27 +46,27 @@
     valid-url "^1.0.9"
 
 "@arc-ui/bundle@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/bundle/-/bundle-2.0.0.tgz#2b3ad3aec366bb3298c51363bc91fdd8fc1456d3"
-  integrity sha512-yi3SGcIM6MTKn4HAt5aR5b1t8zBUai8cKa7S5k5jKzJpy0jTCMYSaxGoKfTnSNGD9w/dXQT2+kM8Pb/l9HuEgg==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/bundle/-/bundle-2.1.0.tgz#a8611bbe6e44de6db55d81a17b356923794840a2"
+  integrity sha512-o6qTLj5p+zcr8EjSsw/BN3YH5mWUEwN1dPc0IKE4ZqOWrtNE5HVvfvsgWfLKfE4U/lnyOvaHFSv6DshNbtrk0A==
   dependencies:
-    "@arc-ui/components" "^2.0.0"
-    "@btdigital/react-from-markup" "^0.0.1"
+    "@arc-ui/components" "^2.1.0"
+    react-from-html "^0.1.5"
 
-"@arc-ui/components@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/components/-/components-2.0.0.tgz#3e2bdc27a507319bb14a53116ac1fd9b261e40d5"
-  integrity sha512-g6wbjci1XREVqN1GjvZZbAp1+FgUi7Gk4kyt/oUO2ONcJ7KYrdRaoPm2jAEQK7HNM2mG8YgWwsXhlB8BcEMVrQ==
+"@arc-ui/components@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/components/-/components-2.1.0.tgz#64e6b2d43b2a5a4d6680c67302bfb1278a26996b"
+  integrity sha512-yc6eCXliN7s7OgYRsVMTsF6A/LJfVPVNda607vlTStfuBns+lx/tblWSzvcfnc4gBLPS0ZmRtMHmU1oiaBmB8g==
 
 "@arc-ui/fonts@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/fonts/-/fonts-2.0.0.tgz#e64dca9c5ba2aca06bd0a6c29fa741de34790c63"
-  integrity sha512-6wZ464OXPnLXXYOGyNj4RbH+TtcIcSdQZUcY+xTvnoIPg6W5kD8CbIeK55GMkREIPmPpf2bSTrNp01vpyeBx0A==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/fonts/-/fonts-2.1.0.tgz#28631764962a99f6f69627c7bf549f70fe62adc3"
+  integrity sha512-nkV2SEmvguxNLNjK5MTm9m6ticzVnL6vdaZQ+7dnj5JBDJ//Oxk49CI4YVr3LGCkyqydD8/dtjbdsPBtSowABw==
 
 "@arc-ui/tokens@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/tokens/-/tokens-2.0.0.tgz#117255335906b1b981d4cf8428d3c9109a5f49b7"
-  integrity sha512-6ZOZfm/y9PYNB2MvIxC/7E4nAYmu4W1f1q9qllhzLhEGM/wNiBLCuv5svqcQ2Mifp+dwSSlYuWkgwddrt5TTvQ==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/tokens/-/tokens-2.1.0.tgz#ce588935a9e360caa0f79a9208a2c15158ab00d6"
+  integrity sha512-vZkKzlegqubJfSH2+n4gwY1mZLn0RgNVBNcidLB0OnuUdY9sRd8Ci7CL8Y5YiW/ncVR0Buzp5EvKskPmSP8UCA==
 
 "@babel/helper-validator-identifier@^7.15.7":
   version "7.15.7"
@@ -85,13 +85,6 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
-
-"@btdigital/react-from-markup@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@btdigital/react-from-markup/-/react-from-markup-0.0.1.tgz#218fd4f64f5e22c88b212bebdca28aee8c10fd31"
-  integrity sha512-mFynBEXH+Fog+8H5XXedsiscwOt1LM5ui9MF3rZhTqxI5BJVqA6JglPB1JNQlCIdXBysxpNIUOSXY8EKUbiWMw==
-  dependencies:
-    dom-element-to-react "^2.0.0-pre.5"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -727,11 +720,6 @@ doctypes@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/doctypes/-/doctypes-1.1.0.tgz#ea80b106a87538774e8a3a4a5afe293de489e0a9"
   integrity sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk=
-
-dom-element-to-react@^2.0.0-pre.5:
-  version "2.0.0-pre.5"
-  resolved "https://registry.yarnpkg.com/dom-element-to-react/-/dom-element-to-react-2.0.0-pre.5.tgz#2577c8ce537a226210fab55a32e5dfe178774151"
-  integrity sha512-U2dmbmufLDvFE5OESDzuwNWr3t4V1NViROk7zbfDGMQaY+SnObr5CtIJYyXVPyPuCyZwRQ/86PxBoPilFUMMfw==
 
 easy-extender@^2.3.4:
   version "2.3.4"
@@ -2316,6 +2304,11 @@ raw-body@^2.3.2:
     http-errors "1.8.1"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+react-from-html@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/react-from-html/-/react-from-html-0.1.5.tgz#4591e34ca63c460b69f4e172c79065b3a6d1314f"
+  integrity sha512-TjXrK1n21FZEGWQ4IuMHsqVcppBmSXK1LvxibNInbmN07FR0b0eTJsyk0olG6rJjsJp3AqxuoyhkMdqPr1vJfg==
 
 read-cache@^1.0.0:
   version "1.0.0"
