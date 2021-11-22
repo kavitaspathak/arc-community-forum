@@ -6,10 +6,17 @@ module.exports = function (eleventyConfig) {
     "node_modules/@arc-ui/fonts/lib/woff2": "assets/css/woff2",
   });
 
-  eleventyConfig.addPassthroughCopy("./src/assets/img");
-
   return {
-    templateFormats: ["md", "njk", "html", "liquid", "jpg", "png", "webp"],
+    templateFormats: [
+      "md",
+      "njk",
+      "html",
+      "liquid",
+      "png",
+      "ico",
+      "svg",
+      "webmanifest",
+    ],
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
 
