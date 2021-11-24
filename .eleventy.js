@@ -6,6 +6,9 @@ module.exports = function (eleventyConfig) {
     "node_modules/@arc-ui/fonts/lib/woff2": "assets/css/woff2",
   });
 
+  // Copy Netlify headers
+  eleventyConfig.addPassthroughCopy("./src/_headers");
+
   return {
     templateFormats: [
       "md",
