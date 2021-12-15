@@ -45,28 +45,28 @@
     time-require "^0.1.2"
     valid-url "^1.0.9"
 
-"@arc-ui/bundle@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/bundle/-/bundle-2.1.0.tgz#a8611bbe6e44de6db55d81a17b356923794840a2"
-  integrity sha512-o6qTLj5p+zcr8EjSsw/BN3YH5mWUEwN1dPc0IKE4ZqOWrtNE5HVvfvsgWfLKfE4U/lnyOvaHFSv6DshNbtrk0A==
+"@arc-ui/bundle@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/bundle/-/bundle-3.1.0.tgz#1bcbc9c39cf78be342d6510820a1595df629a4ee"
+  integrity sha512-FmPHaWe5bbbJ2RDW4g5V8VRHLHn6zNmEIyBw54vabhTmcEANEwiWkGywkLx73wp9wFtth2yy2PRxVOtTMKaVAA==
   dependencies:
-    "@arc-ui/components" "^2.1.0"
+    "@arc-ui/components" "^3.1.0"
     react-from-html "^0.1.5"
 
-"@arc-ui/components@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/components/-/components-2.1.0.tgz#64e6b2d43b2a5a4d6680c67302bfb1278a26996b"
-  integrity sha512-yc6eCXliN7s7OgYRsVMTsF6A/LJfVPVNda607vlTStfuBns+lx/tblWSzvcfnc4gBLPS0ZmRtMHmU1oiaBmB8g==
+"@arc-ui/components@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/components/-/components-3.1.0.tgz#75b554150f90e385efdfc525dca93dc1adb60625"
+  integrity sha512-nsR7AdXdFUZL/JAcC+fTVLgZUekcxGZEDtNyuuz2NvIp35t4nveW4/6gnjrKNyQZ9E91YOXukuOAjGLF+4mAjA==
 
-"@arc-ui/fonts@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/fonts/-/fonts-2.1.0.tgz#28631764962a99f6f69627c7bf549f70fe62adc3"
-  integrity sha512-nkV2SEmvguxNLNjK5MTm9m6ticzVnL6vdaZQ+7dnj5JBDJ//Oxk49CI4YVr3LGCkyqydD8/dtjbdsPBtSowABw==
+"@arc-ui/fonts@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/fonts/-/fonts-3.1.0.tgz#8d1148d7344e5be52c907a2aa40f5c552b3f9b2b"
+  integrity sha512-X5s9z7611d6Fsci8QzuWmmSJ2TMeKFVet+K6CDv7mh2XcTX+GDX6nOv6GSQunxXZawf4GLBZwnKOYE/l0UsMmA==
 
-"@arc-ui/tokens@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@arc-ui/tokens/-/tokens-2.1.0.tgz#ce588935a9e360caa0f79a9208a2c15158ab00d6"
-  integrity sha512-vZkKzlegqubJfSH2+n4gwY1mZLn0RgNVBNcidLB0OnuUdY9sRd8Ci7CL8Y5YiW/ncVR0Buzp5EvKskPmSP8UCA==
+"@arc-ui/tokens@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@arc-ui/tokens/-/tokens-3.1.0.tgz#7fe3ab6171241e57b22778bcaa13c3fca1b175f2"
+  integrity sha512-GZc1HFWfnNtMrhVERIXxL8hcem9MUxaGZsufjdILh7uzrnyiBIiBVNsf3lsH68adcVd/Rdoj4kYrXJQ758hnMw==
 
 "@babel/helper-validator-identifier@^7.15.7":
   version "7.15.7"
